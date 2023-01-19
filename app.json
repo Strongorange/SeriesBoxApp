@@ -7,6 +7,12 @@
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "android": {
+      "package": "com.chan.seriesapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.chan.seriesapp"
+    }
   }
 }
