@@ -52,6 +52,8 @@ export default function App() {
           onNavigationStateChange={setNavState}
           ref={webview}
           onLoad={(props) => setNavState(props.nativeEvent)}
+          javaScriptEnabled={true}
+          domStorageEnabled={true}
         />
       </SafeAreaView>
     </SafeAreaProvider>
